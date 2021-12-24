@@ -1,0 +1,69 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+body {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  margin: auto;
+  width: 338px;
+  padding: 24px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 2%;
+  font-family: "Outfit", sans-serif;
+}
+
+#image {
+  width: 98.5%;
+  cursor: pointer;
+}
+
+#main-text1 {
+  color: white;
+  margin: 15px 0 15px 0;
+  font-size: 1.25rem;
+}
+
+#main-text2 {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.97rem;
+}
+
+#main-text3 {
+  margin: 25px 0 25px 0;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#time-div {
+  align-items: right;
+  color: hsl(215, 51%, 70%);
+}
+
+#amount {
+  color: hsl(178, 100%, 50%);
+}
+
+#Jules {
+  width: 10%;
+}
+
+#creation {
+  color: hsl(215, 51%, 70%);
+}
+
+#creator {
+  color: white;
+}
+
+#main-text1:hover,
+#creator:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+#image:hover a {
+  display: block;
+}
